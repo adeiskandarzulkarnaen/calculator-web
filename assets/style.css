@@ -29,7 +29,7 @@ body {
     text-align: center;
     padding: 25px;
     border: 1px solid black;
-    background: -webkit-linear-gradient(top, #aa6c6c, rgb(184, 139, 139));
+    background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
     cursor: pointer;
 }
 
@@ -61,7 +61,7 @@ body {
     text-align: center;
     padding: 25px;
     border: 1px solid black;
-    background: -webkit-linear-gradient(top, #c0a7a7, rgb(212, 212, 212));
+    background: -webkit-linear-gradient(top, #aa6c6c, rgb(184, 139, 139));
 }
 
 /* menambahkan card  */
