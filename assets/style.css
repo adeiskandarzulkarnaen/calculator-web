@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+
+    /* properti pendukung */
+    max-width: 555px;
+    min-width: 225px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.flex-container-row {
+    display: flex;
+}
+
+.button {
+    flex-basis: 25%;
+
+    /* properti pendukung */
+    font-size: 1.5em;
+    text-align: center;
+    padding: 25px;
+    border: 1px solid black;
+    background: -webkit-linear-gradient(top, #aa6c6c, rgb(184, 139, 139));
+    cursor: pointer;
+}
+
+.double {
+    flex-basis: 50%;
+}
+
+/* part 2 - mempercantik kalkulator */
+
+.display {
+    font-size: 2em;
+    width: 100%;
+    padding: 10px 20px;
+    color: white;
+    background-color: #333333;
+    border: 1px solid black;
+}
+
+.operator,
+.equals {
+    background: orange;
+}
+
+.delete,
+.clear {
+    flex-basis: 37.5%;
+
+    font-size: 1.5em;
+    text-align: center;
+    padding: 25px;
+    border: 1px solid black;
+    background: -webkit-linear-gradient(top, #c0a7a7, rgb(212, 212, 212));
+}
+
+/* menambahkan card  */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.delete:hover,
+.clear:hover,
+.button:hover {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 400px) {
+    .display {
+        font-size: 1.3em;
+        padding: 5px 9px;
+    }
+
+    .delete,
+    .clear,
+    .button {
+        font-size: 1.1em;
+        padding: 10px;
+    }
+}
