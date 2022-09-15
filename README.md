@@ -1,6 +1,5 @@
-# calculator-web
-
-responsive calculator.
+# calculator-web responsive
+calculator-web made with pure-CSS and Vanilla-JavaScript
 
 ## 🖩 Little calculator made with :
 
